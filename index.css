@@ -1,0 +1,73 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+canvas {
+    background: #eee;
+    display: block;
+    margin: 0 auto;
+}
+
+h1 {
+    font-family: 'Courier New', Courier, monospace;
+    color: #777777;
+    text-align: center;
+    margin-top: 10px;
+    padding-top: 10px;
+    margin-bottom: 10px;
+    padding-bottom: 10px;
+}
+
+body {
+    width: 800px;
+    padding: 0;
+    margin: 0;
+    margin: 0 auto;
+}
+
+.text {
+    font-family: 'Courier New', Courier, monospace;
+    color: #777777;
+    text-align: left;
+    margin-top: 10px;
+    padding-top: 20px;
+    margin-bottom: 10px;
+    padding-bottom: 10px;
+}
+
+p {
+    font-family: 'Courier New', Courier, monospace;
+    color: #777777;
+    text-align: left;
+    margin-top: 5px;
+    padding-top: 5px;
+    margin-bottom: 10px;
+    padding-bottom: 10px;
+}
+
+#button {
+    background-color: #f7f3f0;
+    border: #f7f3f0;
+    border-radius: 5px;
+    color: #777777;
+    padding: 10px 30px;
+    margin-top: 10px;
+    margin-left: 10px;
+    margin-right: 10px;
+    font-family: monospace;
+    text-align: center;
+    text-decoration: none;
+    font-size: 16px;
+    vertical-align: middle;
+}
+
+.centered {
+    text-align: center;
+    vertical-align: middle;
+}
+
+#button:focus {
+    outline-width: 2px;
+    outline-color: #777777;
+}
