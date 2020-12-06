@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Conway's Game Of Life - Get Positions</title>
+    <link rel="stylesheet" href="getPositions.css">
+</head>
+
+<body>
+
+    <h1>Conway's Game Of Life - Get Positions</h1>
+    <div>
+        <canvas id="canvas"></canvas>
+    </div>
+
+    <div class="centered">
+        <input id="button" type="button" onclick="checkGameOfLifeBoard()" value="Check">
+        <input id="button" type="button" onclick="refreshCanvas()" value="Refresh">
+
+    </div>
+
+    <p id="arrayWithPositions"></p>
+
+    <table id="Factories" style="width:100%">
+        <tr>
+            <td></td>
+        </tr>
+        <tr>
+            <th><input id="button" type="button" onclick="preDefinedGameOfLife(arrayGliderDuplicator)" value="Load"></th>
+        </tr>
+
+    </table>
+
+</body>
+
+<script src="getPositions.js"></script>
+
+</html>
