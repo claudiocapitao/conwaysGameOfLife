@@ -9,6 +9,11 @@ canvas {
     margin: 0 auto;
 }
 
+a:visited {
+    color: #777777;
+    text-emphasis: bold;
+}
+
 h1 {
     font-family: 'Courier New', Courier, monospace;
     color: #777777;
