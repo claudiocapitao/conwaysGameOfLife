@@ -9,9 +9,28 @@ canvas {
     margin: 0 auto;
 }
 
+a:link {
+    color: #b19e91;
+    background-color: transparent;
+    text-decoration: none;
+}
+
 a:visited {
+    color: #b19e91;
+    background-color: transparent;
+    text-decoration: none;
+}
+
+a:hover {
     color: #777777;
-    text-emphasis: bold;
+    background-color: transparent;
+    text-decoration: underline;
+}
+
+a:active {
+    color: #b19e91;
+    background-color: transparent;
+    text-decoration: underline;
 }
 
 h1 {
@@ -28,10 +47,10 @@ h2 {
     font-family: 'Courier New', Courier, monospace;
     color: #777777;
     text-align: center;
-    margin-top: 10px;
+    margin-top: 15px;
     padding-top: 10px;
-    margin-bottom: 10px;
-    padding-bottom: 10px;
+    margin-bottom: 5px;
+    padding-bottom: 5px;
 }
 
 body {
@@ -74,7 +93,7 @@ p {
     margin-right: 5px;
     text-align: center;
     text-decoration: none;
-    font-size: 14px;
+    font-size: 16px;
     vertical-align: middle;
 }
 
@@ -94,4 +113,32 @@ table {
     text-align: center;
     font-family: 'Courier New', Courier, monospace;
     color: #777777;
+}
+
+#button2 {
+    background-color: #f7f3f0;
+    border: #f7f3f0;
+    border-radius: 2px;
+    color: #777777;
+    font-family: 'Courier New', Courier, monospace;
+    padding: 2px 2px;
+    margin-left: 2px;
+    margin-right: 2px;
+    margin-bottom: 5px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 14px;
+    vertical-align: middle;
+}
+
+.centered {
+    text-align: center;
+    vertical-align: middle;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+#button2:focus {
+    outline-width: 2px;
+    outline-color: #777777;
+    font-family: 'Courier New', Courier, monospace;
 }
